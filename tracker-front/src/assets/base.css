@@ -2,3 +2,13 @@
   --background-light: #EDEDED;
   --component-background-light: #FFFFFF;
 }
+
+@font-face {
+  font-family: Montserrat-semi-bold;
+  src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-regular;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}

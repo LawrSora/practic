@@ -1,7 +1,6 @@
 <template>
   <main class="main-light">
       <router-View />
-      <div class="component">H</div>
   </main>
 </template>
 
@@ -10,7 +9,7 @@
   main {
     overflow: hidden;
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
 
   .main-light {
@@ -19,5 +18,15 @@
 
   .component {
     background-color: var(--component-background-light);
+  }
+
+  body {
+        width: 100%;
+        height: 100%;
+    }
+
+  html {
+    width: 100%;
+    height: 100%;
   }
 </style>
